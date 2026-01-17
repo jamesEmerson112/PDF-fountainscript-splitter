@@ -1,0 +1,11 @@
+name: pdf-splitter
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - pymupdf>=1.24.0
+    - openai>=1.0.0
+    - tqdm>=4.0.0
